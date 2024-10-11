@@ -1,0 +1,15 @@
+body {
+  background-image: url(assets/bg-image.jpg);
+  /* por padrão repete a imagem, 
+  para ficar 1 imagem cobrindo todar tela: cover*/
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box; /*Sem ele a largura extrapola 800, porque soma com os 24 do padding.*/
+  width: 800px;
+  padding: 24px;
+  background-color: #f0e8c2;
+  border-radius: 24px;
+  margin: 48px auto; /* vertical - horizontal(auto-cntraliza)*/
+}
